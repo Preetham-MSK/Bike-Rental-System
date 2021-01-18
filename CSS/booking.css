@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: transparent;
+  background-image: url("../images/images1.jpg");
+  background-position: right;
+}
+
+
+
+/*DIVISION*/
+.tab {
+  background: #34495E;
+  width: 500px;
+  height: 700px;
+  margin-left: 400px;
+  border-radius: 15px;
+
+}
+
+.title {
+  margin-top: 10px;
+  font-size: x-large;
+  text-align: center;
+  color: #a2baff;
+  font-weight: bolder;
+}
+
+
+/*DIVISION ENDS*/
+
+/*TABLE*/
+.table {
+
+   margin: 1em 0;
+  min-width: 400px;
+  height: 400px;
+  background: #34495E;
+  color: #fff;
+  margin-left: 20px;
+  border-radius: .4em;
+  overflow: hidden;
+
+}
+.table tr {
+    border-color: #46637f;
+   border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.table td {
+  font-family: sans-serif;
+  padding: 1.2em !important;
+  margin:.5em 1em;
+
+  display: table-cell;
+  text-align: left;
+}
+.table .item {
+  color: #dd5;
+  font-size: larger;
+  font-weight: bolder;
+}
+/*TABLE ENDS*/
+
+.proceed {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.proceed:hover{
+  background: #2ecc71;
+}
+
+.page-wrapper {
+  min-height: 600px;
+}
+
+

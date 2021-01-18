@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: transparent;
+  background-image: url("../images/images1.jpg");
+  background-position: right;
+}
+
+
+.page-wrapper{
+  min-height: 600px;
+}
+
+/*ONGOING TRANSACTION*/
+.ongoing {
+  background-color: #34495E;
+  width: 430px;
+  position: absolute;
+  left: 10%;
+  top: 20%; 
+  border-radius: 15px;;
+}
+
+.ongoing p {
+  text-align: center; 
+  font-size: xx-large; 
+  font-weight: bolder; 
+  color: #C0FAAB;
+}
+
+/*TABLE*/
+.table {
+
+   margin: 1em 0;
+  min-width: 400px;
+  height: 400px;
+  background: #34495E;
+  color: #fff;
+  margin-left: 20px;
+  border-radius: .4em;
+  overflow: hidden;
+
+}
+.table tr {
+    border-color: #46637f;
+   border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.table td {
+  font-family: sans-serif;
+  padding: 1.2em !important;
+  margin:.5em 1em;
+
+  display: table-cell;
+  text-align: left;
+}
+.table .item {
+  color: #dd5;
+  font-size: larger;
+  font-weight: bolder;
+}
+/*TABLE ENDS*/
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+border-radius: 25px;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box h2{
+  color: grey;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box .type, .terminal, .submit
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+  width: 200px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  height: 45px; 
+  color: #a94442;  
+  text-align: center;
+}
